@@ -6,7 +6,7 @@ import {useRouter} from "next/navigation";
 import {Auth} from "@supabase/auth-ui-react";
 import {ThemeSupa} from "@supabase/auth-ui-shared";
 
-import Modal from "@/components/modal";
+import Modal from "./modal";
 
 import useAuthModal from "@/hooks/useAuthModal";
 

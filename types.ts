@@ -61,3 +61,7 @@ export interface Subscription {
     trial_end?: string;
     prices?: Price;
 }
+
+export interface ProductsWithPrice extends Product {
+    prices?: Price[];
+}
